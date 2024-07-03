@@ -31,19 +31,20 @@ This project leverages a Convolutional Neural Network (CNN) to classify melanoma
 Install the dependencies using:   
 pip install tensorflow numpy matplotlib scikit-learn opencv-python  
 
-
 ## Usage
 1. Clone the repository:
 git clone https://github.com/jovanthompsonmds/Melanoma-Classification-Via-Convolutional-Neural-Network.git
 
 2. Open the Jupyter Notebook and run the code to:
-- Load the data
-- Perform linear regression
-- Visualize the results
-- Analyze the relationship between midterm and final exam grades
+- Preprocess the images.
+- Train the CNN model.
+- Evaluate performance metrics.
+- Visualize results (e.g., accuracy, confusion matrix, ROC-AUC curve).
 
 ## Insights
-The analysis shows a moderately strong positive linear relationship between midterm and final grades, with an R-squared value of 0.613. The predictive model can help educators identify students who may need extra support and provide data-driven insights for improving academic strategies.
+The CNN model demonstrated high performance, significantly outperforming existing smartphone apps for melanoma detection. The confusion matrix showed a balanced classification of benign and malignant lesions, and the ROC-AUC score of 0.97 indicates excellent discrimination capability. This project provides a scalable and reliable tool for early melanoma detection, aiding healthcare professionals and patients in timely diagnosis and treatment.
+
+3. Deploy the trained model on GCP for real-time predictions using the Melanoma Classification Via Convolutional Neural Network - Google_Cloud_Deployment.py script.
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request to improve the project.
