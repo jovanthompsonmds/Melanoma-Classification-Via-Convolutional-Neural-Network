@@ -34,7 +34,7 @@ pip install tensorflow numpy matplotlib scikit-learn opencv-python
 
 ## Usage
 1. Clone the repository:
-git clone https://github.com/jovanthompsonmds/Data-Mining-Design-Using-CRISP-DM.git
+git clone https://github.com/jovanthompsonmds/Image-Classification-Via-Convolutional-Neural-Network.git
 
 2. Open the Jupyter Notebook and run the code to:
 - Load the data
