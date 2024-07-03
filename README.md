@@ -1,4 +1,4 @@
-# Melanoma Classification Using CNN  
+# Melanoma Classification Via Convolutional Neural Network  
 
 ## Overview  
 This project leverages a Convolutional Neural Network (CNN) to classify melanoma skin lesions as benign or malignant, aiming to enhance early detection accuracy. The model was trained and evaluated on a dataset of 13,900 high-resolution images, achieving 91.20% accuracy and an AUC-ROC score of 0.97. By using TensorFlow, Keras, and Google Cloud Platform (GCP), the project delivers a scalable and reliable diagnostic tool for healthcare professionals and individuals.  
@@ -10,13 +10,13 @@ This project leverages a Convolutional Neural Network (CNN) to classify melanoma
 - **Cloud Deployment**: Model deployed on GCP for scalability and accessibility.  
 
 ## Files  
-1. `Melanoma_CNN_Classification.ipynb`  
+1. `Melanoma Classification Via Convolutional Neural Network.ipynb`  
    - Code for data preprocessing, CNN model training, evaluation, and visualization.  
 2. `melanoma_cnn_model.h5`  
    - Trained CNN model for deployment and predictions.  
 3. `Melanoma Cancer Image Dataset`  
    - Image dataset used for training and testing.  
-4. `Google_Cloud_Deployment.py`  
+4. `Melanoma Classification Via Convolutional Neural Network - Google_Cloud_Deployment.py`  
    - Python script to deploy the model on GCP for real-time predictions.  
 
 ## Requirements  
