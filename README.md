@@ -41,10 +41,10 @@ git clone https://github.com/jovanthompsonmds/Melanoma-Classification-Via-Convol
 - Evaluate performance metrics.
 - Visualize results (e.g., accuracy, confusion matrix, ROC-AUC curve).
 
+3. Deploy the trained model on GCP for real-time predictions using the Melanoma Classification Via Convolutional Neural Network - Google_Cloud_Deployment.py script.
+
 ## Insights
 The CNN model demonstrated high performance, significantly outperforming existing smartphone apps for melanoma detection. The confusion matrix showed a balanced classification of benign and malignant lesions, and the ROC-AUC score of 0.97 indicates excellent discrimination capability. This project provides a scalable and reliable tool for early melanoma detection, aiding healthcare professionals and patients in timely diagnosis and treatment.
-
-3. Deploy the trained model on GCP for real-time predictions using the Melanoma Classification Via Convolutional Neural Network - Google_Cloud_Deployment.py script.
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request to improve the project.
